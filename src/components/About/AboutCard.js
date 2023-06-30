@@ -1,40 +1,32 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImEarth,ImTrophy } from "react-icons/im";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+          <p style={{ textAlign: "left" }}>
+            Hi, I am <span className="orange">Hemeshwar Konduru</span>, a final year Master's student pursuing
+            Computer Science (MSCS) at <span className="orange">Indiana Univeristy Bloomington.</span>
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            <br />
+            I worked as a Backend Java Developer in Tata Consultancy Services for 19 months, where I worked 
+            on Spring Boot, Micro-services, Kubernetes, Google CLoud Platform, MongoDB. I also worked on other
+            frameworks like React.js, Node.js, Flask.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImTrophy /> Playing Badminton, Cricket, and Volleyball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImEarth /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
