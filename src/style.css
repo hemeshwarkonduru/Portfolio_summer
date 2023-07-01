@@ -11,7 +11,6 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #d011e9;
   
   --text-color : #e9ac11;
 }
@@ -504,15 +503,10 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #f3800e !important;
+  border-color: #fbfbfc !important;
 }
 
-.btn-primary:hover {
-  color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
-}
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
