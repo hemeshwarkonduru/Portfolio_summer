@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
+import myimage from "../../Assets/Clipped_image_20230703_134154.png"
 
 function Home() {
   return (
@@ -28,13 +29,13 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 10 }}>
               <Tilt>
                 <img
-                  src={homeLogo}
+                  src={myimage}
                   alt="home pic"
                   className="img-fluid"
-                  style={{ maxHeight: "400px" }}
+                  style={{ maxHeight: "300px" }}
                 />
               </Tilt>
             </Col>

@@ -17,7 +17,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I am fluent in programming languages like
-                <b className="orange"> Python, Java, Javascript. </b>
+                <b className="orange"> Python, C#, Javascript, Java. </b>
               <br />
               <br />
               My Interests are working on <span className="orange">Web development frameworks and tools</span> and also in areas related to

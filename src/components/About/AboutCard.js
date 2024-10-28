@@ -12,8 +12,8 @@ function AboutCard() {
             Computer Science (MSCS) at <span className="orange">Indiana Univeristy Bloomington.</span>
             <br />
             <br />
-            I worked as a Backend Java Developer in Tata Consultancy Services for 19 months, where I worked 
-            on Spring Boot, Micro-services, Kubernetes, Google CLoud Platform, MongoDB. I also worked on other
+            I worked as a Backend Java Developer in Tata Consultancy Services for 2 years, where I worked 
+            on .NEt Core, Micro-services, ReactJs, Kubernetes, Google CLoud Platform, MongoDB. I also worked on other
             frameworks like React.js, Node.js, Flask.
             <br />
             <br />

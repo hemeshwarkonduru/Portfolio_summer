@@ -8,6 +8,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiDotnet,
 } from "react-icons/di";
 import {
   SiPostgresql,
@@ -23,17 +24,21 @@ function Techstack() {
         <DiPython /><p className="small-text">Python</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava /><p className="small-text">Java</p>
+        <DiDotnet/><p className="small-text">C# .NET</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 /><p className="small-text">Javascript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot /><p className="small-text">Spring Boot</p>
+        <DiJava /><p className="small-text">Java</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact /><p className="small-text">React.js</p>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpringboot /><p className="small-text">Spring Boot</p>
+      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs /><p className="small-text">Node.js</p>
       </Col>
